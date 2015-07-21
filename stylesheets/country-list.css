@@ -1,0 +1,12 @@
+ul { font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif; }
+ul.f16 { max-width: 320px; display: inline-block; vertical-align: top; font-size: 12px; }
+ul.f32 { display: inline-block; }
+.f16 .flag, .f32 .flag { width: auto; clear: right; }
+.f16 .flag { padding-left: 24px; }
+.f32 .flag { padding-left: 44px; }
+.f16 abbr, .f16 i { display: inline-block; width: 24px; }
+.f32 abbr, .f32 i { display: inline-block; width: 32px; line-height: 32px; vertical-align: bottom; }
+.f16 i { margin-left: -48px; margin-right: 24px; color: silver; }
+.f32 i { margin-left: -76px; margin-right: 44px; color: silver; }
+.flag.deprecated { color: silver; }
+.flag.island { color: navy; }
